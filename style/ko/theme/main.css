@@ -1236,9 +1236,9 @@ body img{image-rendering: auto; image-rendering: -webkit-optimize-contrast;}
 .siteListW{display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center; margin-left: auto;}
 .siteList{margin-left: 10px; position: relative; z-index: 1;}
 .siteList:first-child{margin-left: 0;}
-.siteList>a{display: block; width: 200px; line-height: 43px; border: 1px solid #676b73; border-radius: 10px; font-size: 15px; color: #7d8596; background: #2b2f38 url(../../../image/ko/local/f_arrow.png) no-repeat right 18px center; padding: 0 18px; box-sizing: border-box;}
+.siteList>a{display: block; width: 200px; line-height: 43px; border: 1px solid #676b73; border-radius: 10px; font-size: 15px; color: #7d8596; background: #2b2f38 url(../../../image/ko/local/f_arrow.png) no-repeat right 18px center; padding: 0 18px; box-sizing: border-box;  position: relative; z-index: 2;}
 .siteList.on>a{color: #000; background-color: #fff; background-image: url(../../../image/ko/local/f_arrow_on.png);box-shadow: 0px -8px 11.4px 0.6px rgba(0, 0, 0, 0.15);}
-.siteList>ul{display: none; position: absolute; left: 0; bottom: 15px; width: 100%; border-radius: 8px; border: 1px solid #676b73; background: #fff; padding:10px 8px 35px; box-sizing: border-box; z-index: -1;}
+.siteList>ul{display: none; position: absolute; left: 0; bottom: 15px; width: 100%; border-radius: 8px; border: 1px solid #676b73; background: #fff; padding:10px 8px 35px; box-sizing: border-box; z-index: 1;}
 .siteList>ul>li>a{display: block; line-height: 35px; font-size: 15px; color: #6e6e6e; background: url(../../../image/ko/local/f_border.png) repeat-x bottom left;}
 .siteList>ul>li:last-child>a{background-image: none;}
 .siteList>ul>li>a:hover{color: #000;}
